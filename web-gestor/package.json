@@ -1,0 +1,45 @@
+{
+  "name": "Universitario",
+  "version": "10.1.0-SNAPSHOT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write \"{components,app,service,api-generator}/**/*.{js,ts,tsx,d.ts}\"",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@fullcalendar/core": "^6.1.11",
+    "@fullcalendar/daygrid": "^6.1.11",
+    "@fullcalendar/interaction": "^6.1.11",
+    "@fullcalendar/react": "^6.1.11",
+    "@hookform/resolvers": "^3.3.4",
+    "@types/node": "20.3.1",
+    "@types/react": "18.2.12",
+    "@types/react-dom": "18.2.5",
+    "axios": "^1.6.0",
+    "chart.js": "4.2.1",
+    "next": "13.4.8",
+    "next-auth": "^4.23.1",
+    "nookies": "^2.5.2",
+    "primeflex": "^3.3.1",
+    "primeicons": "^6.0.1",
+    "primereact": "^10.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.51.0",
+    "react-pin-input": "^1.3.1",
+    "typescript": "5.1.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.6",
+    "prettier": "^2.8.8",
+    "sass": "^1.63.4"
+  }
+}

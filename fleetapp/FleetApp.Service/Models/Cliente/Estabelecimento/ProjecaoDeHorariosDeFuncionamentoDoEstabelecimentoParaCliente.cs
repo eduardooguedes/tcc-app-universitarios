@@ -1,0 +1,3 @@
+﻿namespace Dashdine.Service.Models.Cliente.Estabelecimento;
+
+public sealed record ProjecaoDeHorariosDeFuncionamentoDoEstabelecimentoParaCliente(DateOnly Dia, IEnumerable<ProjecaoDeHorarioDeFuncionamentoDoDia> Horarios);
